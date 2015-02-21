@@ -1,0 +1,16 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+canvas {
+    background: black url(http://www.startextures.com/starnetblog/wp-content/uploads/2010/09/starnetblog_cloudy_starfield_texture4.jpg) repeat center;
+    margin: 0;
+    padding: 0;
+}
+#myCanvas {
+    width: 100%;
+    height: 100%;
+}
