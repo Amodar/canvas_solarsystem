@@ -90,15 +90,8 @@
 			radius_orbit_saturn = 9.53707032 * ratio_orbit;
 			radius_orbit_uranus = 19.19126393 * ratio_orbit;
 			radius_orbit_neptune = 30.06896348 * ratio_orbit;
-
-
+			
 			window.requestAnimationFrame(draw);
-
-			window.requestAnimFrame = (function () {
-					return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) {
-							window.setTimeout(callback, 1000 / 10);
-					};
-			})();
 	}
 
 	function draw() {
